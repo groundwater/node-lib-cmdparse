@@ -1,3 +1,5 @@
+var quotes = require('shell-quote').parse;
+
 function parse(line) {
 
   var env = true;
@@ -7,7 +9,7 @@ function parse(line) {
     args: []
   };
 
-  var split = line.split(/\s+/);
+  var split = quotes(line);
   split.forEach(function (item) {
     // check for environment varable
     if (env && item[0] != '-' && item.indexOf('=') > 0) {

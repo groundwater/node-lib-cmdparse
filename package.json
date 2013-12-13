@@ -4,5 +4,8 @@
   "description": "Parse a shell-style command line",
   "main": "index.js",
   "author": "Jacob Groundwater <groundwater@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "shell-quote": "~1.4.0"
+  }
 }
