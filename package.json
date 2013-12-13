@@ -1,6 +1,6 @@
 {
   "name": "lib-cmdparse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse a shell-style command line",
   "main": "index.js",
   "author": "Jacob Groundwater <groundwater@gmail.com>",
